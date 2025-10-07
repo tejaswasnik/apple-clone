@@ -1,0 +1,305 @@
+@font-face {
+    font-family: apple-thin;
+    src: url(/Frontend/CSS/Task-4/Fonts/FontsFree-Net-SFProDisplay-Thin.ttf);
+}
+
+@font-face {
+    font-family: apple-regular;
+    src: url(/Frontend/CSS/Task-4/Fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #333;
+    color: white;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#nav h4 {
+    font-family: apple-thin;
+    margin: 10px;
+}
+
+#hero {
+    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#hero h2 {
+    position: absolute;
+    top: 5%;
+    color: white;
+    font-size: 50px;
+    font-family: apple-regular;
+
+}
+
+#hero h3 {
+    position: absolute;
+    top: 13%;
+    color: white;
+    font-size: 20px;
+    font-family: apple-thin;
+
+}
+
+#normal{
+    padding: 10px 20px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: apple-regular;
+    font-size: 15px;
+}
+
+#transparent {
+    padding: 10px 20px;
+    background: none;
+    color: #0077ED;
+    border: 2px solid #0077ED;
+    border-radius: 30px;
+    font-family: apple-regular;
+    margin: 4px 5px;
+    font-size: 15px;
+}
+
+#hero-btns {
+    position: absolute;
+    top: 17%;
+}
+
+section{
+    height: 80%;
+    width: 100%;
+}
+
+#iphone-air {
+    height: 100%;
+    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+#iphone-air h2 {
+    font-family: apple-regular;
+    font-size: 50px;
+}
+
+#iphone-air h3 {
+    font-family: apple-thin;
+    font-size: 30px;
+}
+
+#iphone-air #hero-btns-iphone-air #learn-more {
+    padding: 10px 20px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: apple-regular;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#iphone-17 {
+    height: 100%;
+    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_17__c5vvimu9a20y_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+#iphone-17 h2 {
+    font-family: apple-regular;
+    font-size: 50px;
+}
+
+#iphone-17 h3 {
+    font-family: apple-thin;
+    font-size: 35px;
+}
+
+#iphone-17 #hero-btns-iphone-17 #learn-more {
+    padding: 10px 20px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: apple-regular;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+#container1, #container2, #container3 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.icloud, .games, .airpods, .ipad, .trade, .card {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    border: 5px solid white;
+}
+
+.icloud {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_icloud_plus__d4639vh3tz2a_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.games {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_apple_games__bfy0db0xi602_large.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display: flex;
+    justify-content: flex-start;
+}
+
+.airpods {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+            background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display: flex;
+    justify-content: flex-start;
+}
+
+.ipad {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+            background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display: flex;
+    justify-content: flex-start;
+}
+
+.trade {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+            background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display: flex;
+    justify-content: flex-start;
+}
+
+.card {
+    background-image: url(/Frontend/CSS/Task-4/Images/promo_apple_card__5cm7draujpey_large.jpg);
+            background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display: flex;
+    justify-content: flex-start;
+}
+
+.icloud h2 {
+    font-size: 50px;
+    font-family: apple-regular;
+}
+
+.icloud h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 10px;
+}
+
+
+.games img {
+    width: 175px;
+}
+
+.games h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 10px;
+    color: white;
+}
+
+.airpods h2 {
+    font-size: 50px;
+    font-family: apple-regular;
+}
+
+.airpods h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 10px;
+}
+
+.ipad img {
+    width: 175px;
+}
+
+.ipad h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 10px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 10px;
+}
+
+.trade img {
+    width: 175px;
+}
+
+.trade h3 {
+    font-size: 20px;
+    font-family: apple-thin;
+    margin: 20px;
+}
