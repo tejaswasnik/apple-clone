@@ -1,11 +1,11 @@
 @font-face {
     font-family: apple-thin;
-    src: url(/Frontend/CSS/Task-4/Fonts/FontsFree-Net-SFProDisplay-Thin.ttf);
+    src: url(/Fonts/FontsFree-Net-SFProDisplay-Thin.ttf);
 }
 
 @font-face {
     font-family: apple-regular;
-    src: url(/Frontend/CSS/Task-4/Fonts/SFPRODISPLAYREGULAR.OTF);
+    src: url(/Fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
 * {
@@ -36,7 +36,7 @@ html, body {
 }
 
 #hero {
-    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-image: url(/Images/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
     background-position: center;
     height: 100%;
     background-size: cover;
@@ -99,7 +99,7 @@ section{
 
 #iphone-air {
     height: 100%;
-    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-image: url(/Images/hero_iphone_air__0gxyavihpiqu_large.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ section{
 
 #iphone-17 {
     height: 100%;
-    background-image: url(/Frontend/CSS/Task-4/Images/hero_iphone_17__c5vvimu9a20y_large.jpg);
+    background-image: url(/Images/hero_iphone_17__c5vvimu9a20y_large.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ section{
 }
 
 .icloud {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_icloud_plus__d4639vh3tz2a_large.jpg);
+    background-image: url(/Images/promo_icloud_plus__d4639vh3tz2a_large.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ section{
 }
 
 .games {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_apple_games__bfy0db0xi602_large.jpg);
+    background-image: url(/Images/promo_apple_games__bfy0db0xi602_large.jpg);
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@ section{
 }
 
 .airpods {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    background-image: url(/Images/promo_airpodspro_3__f6xmza7bglei_large.jpg);
             background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ section{
 }
 
 .ipad {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+    background-image: url(/Images/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
             background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ section{
 }
 
 .trade {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-image: url(/Images/promo_iphone_tradein__bugw15ka691e_large.jpg);
             background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ section{
 }
 
 .card {
-    background-image: url(/Frontend/CSS/Task-4/Images/promo_apple_card__5cm7draujpey_large.jpg);
+    background-image: url(/Images/promo_apple_card__5cm7draujpey_large.jpg);
             background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
